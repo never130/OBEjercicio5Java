@@ -14,7 +14,9 @@ public class Main {
         CocheCRUD nissan = new CocheCRUDImpl("nissan","tour", 2004, 3000);
 
         System.out.println(cocheCrud);
-
+        System.out.println(honda);
+        System.out.println(chevrolet);
+        System.out.println(nissan);
     }
 
 }
