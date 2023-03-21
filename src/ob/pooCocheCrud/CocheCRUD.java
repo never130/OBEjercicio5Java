@@ -4,11 +4,11 @@ import java.util.List;
 
 public interface CocheCRUD {
 
-    void save(CocheCRUDImpl cocheCRUDImpl);
+    void save();
 
-    List<CocheCRUDImpl> findAll();
+    void findAll();
 
-    void delete(CocheCRUDImpl cocheCRUDImpl);
+    void delete();
 
 
 }

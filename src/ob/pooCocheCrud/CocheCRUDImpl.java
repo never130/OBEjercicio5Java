@@ -19,6 +19,25 @@ public class CocheCRUDImpl implements CocheCRUD {
         this.precio = precio;
     }
 
+
+    @Override
+    public void save() {
+
+    }
+
+    @Override
+    public void findAll() {
+
+    }
+
+    @Override
+    public void delete() {
+
+    }
+    String save = "Guardando";
+    String findAll = "Buscar todo";
+    String delete = "Borrando";
+
     @Override
     public String toString() {
         return "CocheCRUDImpl{" +
@@ -26,22 +45,9 @@ public class CocheCRUDImpl implements CocheCRUD {
                 ", modelo='" + modelo + '\'' +
                 ", year=" + year +
                 ", precio=" + precio +
+                ", save='" + save + '\'' +
+                ", findAll='" + findAll + '\'' +
+                ", delete='" + delete + '\'' +
                 '}';
-    }
-
-
-    @Override
-    public void save(CocheCRUDImpl cocheCRUDImpl) {
-
-    }
-
-    @Override
-    public List<CocheCRUDImpl> findAll() {
-        return null;
-    }
-
-    @Override
-    public void delete(CocheCRUDImpl cocheCRUDImpl) {
-
     }
 }
